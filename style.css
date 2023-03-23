@@ -1,0 +1,59 @@
+body {
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://cdn.hovia.com/app/uploads/pastel-rainbow-vertical-simple-stripe-repeat-pattern-wallpaper-Plain.jpg")
+}
+
+#quote-history {
+  background-color: white;
+  height: 50%;
+  width: auto;
+  overflow: hidden;
+}
+.catFacts {
+ padding-left: 0; 
+ list-style-type:none;
+ word-wrap: normal;
+}
+ul{
+  font-size: small;
+  word-wrap: none;
+  text-align: center;
+  list-style-type: none; /* Remove bullets */
+}
+#new-quote-button {
+  background-color: #ddbbc9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1vw;
+  font-weight: bold;
+  margin: 10px;
+  cursor: pointer;
+}
+h1 {
+  font-size: 1vw;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-size: 0.5vw;
+  color: #000000;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.catImg {
+  transition: 0.2s;
+}
+.catImg:hover { 
+  transform: scale(1.2); 
+  }
